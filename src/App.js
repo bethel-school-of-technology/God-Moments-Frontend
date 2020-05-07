@@ -7,7 +7,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Welcome to God Moments! We are under construction!</p>
+        <p>Welcome to God Moments! 
+          <h1>Our website is currently under construction</h1>
+          <h3>-Kairos Coders</h3>
+        </p>
           <p>Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
