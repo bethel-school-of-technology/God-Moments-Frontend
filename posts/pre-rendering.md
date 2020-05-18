@@ -1,5 +1,5 @@
 ---
-title: 'Two Forms of Pre-rendering'
+title: 'Donate to God Moments'
 date: '2020-01-01'
 ---
 
