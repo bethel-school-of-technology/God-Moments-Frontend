@@ -20,10 +20,14 @@ export default function Home({
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <h3>The Kairos Coders welcome you to God Moments!</h3>
+      <h3>The Kairos Coders welcome you to God Moments</h3>
         <p>
           ({' '}
-          <Link href="./posts/testimonies"><a>Click here for good news!</a></Link>)
+          <Link href="./posts/testimonies"><a>Testimony Stream!  </a></Link>)
+          ({' '} <Link href="./posts/faq"><a> Our Mission  </a></Link>)
+          ({' '} <Link href="/.posts/faq"><a> Prayer Requests  </a></Link>)
+          ({' '} <Link href="./posts/faq"><a> FAQ  </a></Link>)
+          ({' '} <Link href=".posts/faq"><a> Log in  </a></Link>)
         </p> 
       <section className={utilStyles.headingMd}> </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
