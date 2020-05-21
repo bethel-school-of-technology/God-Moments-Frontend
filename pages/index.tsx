@@ -24,10 +24,10 @@ export default function Home({
         <p>
           ({' '}
           <Link href="./posts/testimonies"><a>Testimony Stream!  </a></Link>)
-          ({' '} <Link href="./posts/testimonies"><a> Our Mission  </a></Link>)
-          ({' '} <Link href="./posts/testimonies"><a> Prayer Requests  </a></Link>)
-          ({' '} <Link href="./posts/testimonies"><a> FAQ  </a></Link>)
-          ({' '} <Link href="./posts/testimonies"><a> Log in  </a></Link>)
+          ({' '} <Link href="./posts/about"><a> Our Mission  </a></Link>)
+          ({' '} <Link href="./posts/prayer"><a> Prayer Requests  </a></Link>)
+          ({' '} <Link href="./posts/faq"><a> FAQ  </a></Link>)
+          ({' '} <Link href="./posts/login"><a> Log in  </a></Link>)
         </p> 
       <section className={utilStyles.headingMd}> </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
