@@ -1,7 +1,7 @@
+## Welcome to the God Moments Frontend, worked on by the Kairos Coders.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
 
-
-**Preview over the web:** 
 
 ## Getting Started
 
