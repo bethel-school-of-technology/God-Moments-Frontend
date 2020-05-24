@@ -9,16 +9,16 @@ export default function Faq() {
       </Head>
       <section>
         <p>
-          Question 1: What is God Moments?
+        <a href="#question1">1. What is God Moments?</a>
         </p>
         <p>
-          Question 2: How to contact support?
+        <a href="#question2">2. How to contact support?</a>
         </p>
         <p>
-          Question 3: How to add a post?
+        <a href="#question3">3. How to add a blog post?</a>
         </p>
         <p>
-          Question 4: How to update account?
+        <a href="#question4">4. How to update my account?</a>
         </p>
       </section>
     </Layout>
