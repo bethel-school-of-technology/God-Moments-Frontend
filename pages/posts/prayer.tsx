@@ -9,7 +9,7 @@ export default function Pray() {
       </Head>
       <section>
         <p>
-          <img src="/images/notalone.jpg"/>
+          <img src="/images/notalone.jpg" width="700" height="500"/>
 
           <h2>How can we pray with you?</h2>
         </p>
