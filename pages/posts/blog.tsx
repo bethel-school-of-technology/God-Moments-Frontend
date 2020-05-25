@@ -22,8 +22,7 @@ export default function Blog({
       </Head>
       <h3>The Kairos Coders welcome you to God Moments</h3>
         <p>
-          ({' '}
-          <Link href="./posts/testimonies"><a>Testimony Stream!  </a></Link>)
+          ({' '} <Link href="./testimonies"><a> Testimony Stream!  </a></Link>)
           ({' '} <Link href="./posts/about"><a> Our Mission  </a></Link>)
           ({' '} <Link href="./posts/prayer"><a> Prayer Requests  </a></Link>)
           ({' '} <Link href="./posts/faq"><a> FAQ  </a></Link>)
