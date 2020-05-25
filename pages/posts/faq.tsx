@@ -1,25 +1,24 @@
-import Head from 'next/head'
-import Layout, { siteTitle } from '../../components/layout'
-import utilStyles from '../styles/utils.module.css'
+import Head from "next/head";
+import Layout from "../../components/layout";
 
-export default function Home() {
+export default function Faq() {
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>God Moments: FAQ</title>
       </Head>
-      <section className={utilStyles.headingMd}>
+      <section>
         <p>
-          Question 1: What is God Moments?
+        <a href="#question1">1. What is God Moments?</a>
         </p>
         <p>
-          Question 2: How to contact support?
+        <a href="#question2">2. How to contact support?</a>
         </p>
         <p>
-          Question 3: How to add a post?
+        <a href="#question3">3. How to add a blog post?</a>
         </p>
         <p>
-          Question 4: How to update account?
+        <a href="#question4">4. How to update my account?</a>
         </p>
       </section>
     </Layout>
