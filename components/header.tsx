@@ -19,7 +19,7 @@ const Header = () => (
                         <NavDropdown.Item href="posts/blog">Blog</NavDropdown.Item>
                         <NavDropdown.Item href="posts/prayer">Prayer</NavDropdown.Item>
                         <NavDropdown.Item href="posts/about">About</NavDropdown.Item>
-                        <NavDropdown.Item href="posts/faq">FAQ</NavDropdown.Item>
+                        <NavDropdown.Item href="posts/faq">Help</NavDropdown.Item>
                         <NavDropdown.Item href="posts/login">Login</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
