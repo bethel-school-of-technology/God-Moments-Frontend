@@ -50,3 +50,16 @@
   .lightText {
     color: #999;
   }
+
+  .border {
+      background-color: lightblue;
+      border:5px solid black;
+      float:center;
+      padding:auto;
+      margin-right:auto;
+      margin-left:auto;
+
+    }
+  .form {
+    text-align:center;
+  }
