@@ -5,16 +5,11 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 export default function Faq() {
   return (
     <Layout>
-      <Head>
-        <title>God Moments: FAQ</title>
-      </Head>
-
-    
     <div style={{
         marginBottom: '5%'
     }}>
         <Head>
-            <title>God Moments</title>
+            <title>God Moments: FAQ</title>
             <link rel="icon" href="/favicon.ico"/>
         </Head>
         <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -27,7 +22,7 @@ export default function Faq() {
                         <NavDropdown.Item href="blog">Blog</NavDropdown.Item>
                         <NavDropdown.Item href="prayer">Prayer</NavDropdown.Item>
                         <NavDropdown.Item href="about">About</NavDropdown.Item>
-                        <NavDropdown.Item href="faq">FAQ</NavDropdown.Item>
+                        <NavDropdown.Item href="faq">Help</NavDropdown.Item>
                         <NavDropdown.Item href="login">Login</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
