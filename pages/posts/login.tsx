@@ -1,10 +1,6 @@
 import Head from "next/head";
-<<<<<<< HEAD
 import Layout, { siteTitle } from "../../components/layout";
 import utilStyles from '../../styles/utils.module.css'
-=======
-import Layout from "../../components/layout";
->>>>>>> fc499eeb3778d7c5a746e8e19a7c0ca9a9144704
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 
 export default function Login() {
@@ -13,15 +9,10 @@ export default function Login() {
     <div style={{
         marginBottom: '5%'
     }}>
-<<<<<<< HEAD
         <Head>   
            <title>God Moments</title>
           <script>    
            
-=======
-        <Head>
-            <title>God Moments: Login</title>
->>>>>>> fc499eeb3778d7c5a746e8e19a7c0ca9a9144704
             <link rel="icon" href="/favicon.ico"/>
            
             </script>
