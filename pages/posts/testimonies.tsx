@@ -31,14 +31,10 @@ export default function FirstPost() {
         </Navbar>
     </div>
 
-
-
-
-      <h1>Testimony Stream!</h1>
+      <h3>
+      <h3>The Kairos Coders welcome you to the God Moments Testimony Stream.</h3></h3>
       <br/>
-      <h3>Under Contruction</h3>
-      <br/>
-      <h4>The Kairos Coders are hard at work... or praying... or eating... or possibly sleeping? This page shall be running soon! :)</h4>
+      <h4>We are hard at work... or praying... or eating... or possibly sleeping? This page shall be running soon! :)</h4>
       <br/>
       
       <Link href="/posts/blog">

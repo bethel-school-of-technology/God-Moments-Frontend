@@ -44,9 +44,7 @@ export default function Blog({
                 </Navbar.Collapse>
         </Navbar>
     </div>
-
-
-      <h3>The Kairos Coders welcome you to God Moments</h3>
+    
       <section className={utilStyles.headingMd}> </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
       <h2 className={utilStyles.headingLg}>Blog:</h2>
