@@ -62,7 +62,10 @@ export default function Blog({
           ))}
         </ul>
       </section>
-      
+    
+    <br/>
+    <br/>
+    
     <Link href="/posts/prayer">
       <a>→ Need Prayer? </a>
     </Link>
