@@ -63,3 +63,18 @@
   .form {
     text-align:center;
   }
+
+  .borderSm {
+    background-color: lightblue;
+    border:2.5px solid black;
+    float:center;
+    padding:auto;
+    margin-right:50;
+    margin-left:50;
+    margin-top:auto;
+    margin-bottom:auto;
+  }
+
+  .h1 {
+    text-align: center;
+  }

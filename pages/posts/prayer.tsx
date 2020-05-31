@@ -3,6 +3,7 @@ import Layout from "../../components/layout";
 import Link from 'next/link'
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import utilStyles from '../../styles/utils.module.css';
 import NavDropdown from "react-bootstrap/NavDropdown";
 
 export default function Pray() {
@@ -24,8 +25,8 @@ export default function Pray() {
                         <NavDropdown.Item href="testimonies">Testimonies</NavDropdown.Item>
                         <NavDropdown.Item href="blog">Blog</NavDropdown.Item>
                         <NavDropdown.Item href="prayer">Prayer</NavDropdown.Item>
-                        <NavDropdown.Item href="about">About</NavDropdown.Item>
-                        <NavDropdown.Item href="faq">Help</NavDropdown.Item>
+                        <NavDropdown.Item href="about">Who Are We</NavDropdown.Item>
+                        <NavDropdown.Item href="faq">Help Me</NavDropdown.Item>
                         <NavDropdown.Item href="login">Login</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
@@ -38,13 +39,35 @@ export default function Pray() {
 
       <section>
         <p>
-          <img src="/images/notalone.jpg" width="700" height="500"/>
-
-          <h2>How can we pray with you?</h2>
-
+          <img src="/images/notalone.jpg" width="500" height="300"/>
+          <br/>
+          <br/>
+          <section className={utilStyles.h1}>
+          <h1>How can we pray with you?</h1>
+          <br/>
+          <br/>
+      </section>
+      <section className={utilStyles.border}>
+      
+     <form>
+     <section className={utilStyles.form}>
+       
+       <br/>
+       <h4>Enter Prayer Request:</h4>
+      <textarea rows="10" cols="50" name="message"></textarea><br/>
+      <button name="submit" type="submit">Submit!</button>
+     </section>
+     </form>
+     <br/>
+     <br/>
+      </section>
+      <br/>
+      <br/>
+          <section className={utilStyles.borderSm}>
           <Link href="/posts/about">
       <a>→ Learn more about who we are </a>
     </Link>
+    </section>
         </p>
        
       </section>

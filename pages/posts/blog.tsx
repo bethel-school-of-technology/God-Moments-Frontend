@@ -36,8 +36,8 @@ export default function Blog({
                         <NavDropdown.Item href="testimonies">Testimonies</NavDropdown.Item>
                         <NavDropdown.Item href="blog">Blog</NavDropdown.Item>
                         <NavDropdown.Item href="prayer">Prayer</NavDropdown.Item>
-                        <NavDropdown.Item href="about">About</NavDropdown.Item>
-                        <NavDropdown.Item href="faq">Help</NavDropdown.Item>
+                        <NavDropdown.Item href="about">Who Are We</NavDropdown.Item>
+                        <NavDropdown.Item href="faq">Help Me</NavDropdown.Item>
                         <NavDropdown.Item href="login">Login</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
@@ -46,10 +46,12 @@ export default function Blog({
     </div>
 
 
-      <h3>The Kairos Coders welcome you to God Moments</h3>
+      <h1>Testimonies and Encounters</h1>
+      <br/>
+      <br/>
       <section className={utilStyles.headingMd}> </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-      <h2 className={utilStyles.headingLg}>Blog:</h2>
+    
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
@@ -64,10 +66,14 @@ export default function Blog({
           ))}
         </ul>
       </section>
-      
+          <br/>
+          <br/>
+
+      <section className={utilStyles.borderSm}>
     <Link href="/posts/prayer">
       <a>→ Need Prayer? </a>
     </Link>
+    </section>
 
     </Layout>
   )

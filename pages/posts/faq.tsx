@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Layout from "../../components/layout";
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import Link from "next/link";
 
 export default function Faq() {
   return (
@@ -21,30 +22,47 @@ export default function Faq() {
                         <NavDropdown.Item href="testimonies">Testimonies</NavDropdown.Item>
                         <NavDropdown.Item href="blog">Blog</NavDropdown.Item>
                         <NavDropdown.Item href="prayer">Prayer</NavDropdown.Item>
-                        <NavDropdown.Item href="about">About</NavDropdown.Item>
-                        <NavDropdown.Item href="faq">Help</NavDropdown.Item>
+                        <NavDropdown.Item href="about">Who Are We</NavDropdown.Item>
+                        <NavDropdown.Item href="faq">Help Me</NavDropdown.Item>
                         <NavDropdown.Item href="login">Login</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
                 </Navbar.Collapse>
         </Navbar>
     </div>
-
+      <h2>Help Me???</h2>
+      <br/>
+      <br/>
 
       <section>
         <p>
-        <a href="#question1">1. What is God Moments?</a>
+        1. What is God Moments?<br/>
+        <br/>
+        An online blog site for Christians to meet, share their God moments, and leave prayer requests.<br/>
+        <br/>
+        2. How to contact support?<br/>
+        <br/>
+        To be determined.
         </p>
-        <p>
-        <a href="#question2">2. How to contact support?</a>
-        </p>
-        <p>
-        <a href="#question3">3. How to add a blog post?</a>
-        </p>
-        <p>
-        <a href="#question4">4. How to update my account?</a>
-        </p>
+        
       </section>
+
+      <img src="/images/hammock.jpg" width="500" height="300"/>
+      <br/>
+      <br/>
+      <br/>
+      <section>
+    <p>
+        3. How to add a blog post?<br/>
+        <br/>
+        Go to the blog page <Link href="blog"><a>Blog Page</a></Link><br/>
+       <br/>
+       4. How to update my account?<br/>
+       <br/>
+       To be determined.<br/>
+       </p>
+      </section>
+
     </Layout>
   )
 }

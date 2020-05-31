@@ -18,8 +18,8 @@ const Header = () => (
                         <NavDropdown.Item href="posts/testimonies">Testimonies</NavDropdown.Item>
                         <NavDropdown.Item href="posts/blog">Blog</NavDropdown.Item>
                         <NavDropdown.Item href="posts/prayer">Prayer</NavDropdown.Item>
-                        <NavDropdown.Item href="posts/about">About</NavDropdown.Item>
-                        <NavDropdown.Item href="posts/faq">Help</NavDropdown.Item>
+                        <NavDropdown.Item href="posts/about">Who Are We</NavDropdown.Item>
+                        <NavDropdown.Item href="posts/faq">Help Me</NavDropdown.Item>
                         <NavDropdown.Item href="posts/login">Login</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
