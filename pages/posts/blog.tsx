@@ -1,13 +1,10 @@
-import Head from 'next/head'
 import Layout from '../../components/layout'
+import Header from '../../components/header'
 import utilStyles from '../../styles/utils.module.css'
 import { getSortedPostsData } from '../../lib/posts'
 import Link from 'next/link'
 import Date from '../../components/date'
 import { GetStaticProps } from 'next'
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
-
-
 
 export default function Blog({
   allPostsData
@@ -20,6 +17,7 @@ export default function Blog({
 }) {
   return (
 <Layout>
+<<<<<<< HEAD
     <div style={{
         marginBottom: '5%'
     }}>
@@ -49,6 +47,9 @@ export default function Blog({
       <h1>Testimonies and Encounters</h1>
       <br/>
       <br/>
+=======
+  <Header/>
+>>>>>>> 6dd8c324534c1b76fc6090d899a3fef21d68d4ae
       <section className={utilStyles.headingMd}> </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
     
@@ -66,10 +67,17 @@ export default function Blog({
           ))}
         </ul>
       </section>
+<<<<<<< HEAD
           <br/>
           <br/>
 
       <section className={utilStyles.borderSm}>
+=======
+    
+    <br/>
+    <br/>
+    
+>>>>>>> 6dd8c324534c1b76fc6090d899a3fef21d68d4ae
     <Link href="/posts/prayer">
       <a>→ Need Prayer? </a>
     </Link>

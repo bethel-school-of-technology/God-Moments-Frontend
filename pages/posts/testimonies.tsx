@@ -1,12 +1,16 @@
-import Head from "next/head";
-import Layout from "../../components/layout";
+import Layout from "../../components/layout"
+import Header from "../../components/header"
 import Link from 'next/link'
+<<<<<<< HEAD
 import utilStyles from '../../styles/utils.module.css'
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+=======
+>>>>>>> 6dd8c324534c1b76fc6090d899a3fef21d68d4ae
 
 export default function testimonies() {
   return (
     <Layout>
+<<<<<<< HEAD
     <div style={{
         marginBottom: '5%'
     }}>
@@ -40,6 +44,14 @@ export default function testimonies() {
       <br/>
       <h2>Add a Testimony or an Encounter Post</h2>
       <br/>
+=======
+      <Header/>
+
+      <h3>
+      <h3>The Kairos Coders welcome you to the God Moments Testimony Stream.</h3></h3>
+      <br/>
+      <h4>We are hard at work... or praying... or eating... or possibly sleeping? This page shall be running soon! :)</h4>
+>>>>>>> 6dd8c324534c1b76fc6090d899a3fef21d68d4ae
       <br/>
       <section className={utilStyles.border}>
       

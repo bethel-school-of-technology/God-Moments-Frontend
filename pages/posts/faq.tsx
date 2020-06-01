@@ -1,11 +1,17 @@
+<<<<<<< HEAD
 import Head from "next/head";
 import Layout from "../../components/layout";
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import Link from "next/link";
+=======
+import Layout from "../../components/layout"
+import Header from '../../components/header'
+>>>>>>> 6dd8c324534c1b76fc6090d899a3fef21d68d4ae
 
 export default function Faq() {
   return (
     <Layout>
+<<<<<<< HEAD
     <div style={{
         marginBottom: '5%'
     }}>
@@ -34,6 +40,9 @@ export default function Faq() {
       <br/>
       <br/>
 
+=======
+      <Header/>
+>>>>>>> 6dd8c324534c1b76fc6090d899a3fef21d68d4ae
       <section>
         <p>
         1. What is God Moments?<br/>

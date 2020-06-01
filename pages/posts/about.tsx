@@ -1,13 +1,12 @@
-import Head from "next/head";
-import Layout from "../../components/layout";
+import Layout from "../../components/layout"
+import Header from '../../components/header'
 import Link from 'next/link'
 import utilStyles from '../../styles/utils.module.css'
-
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
 export default function About() {
   return (
     <Layout>
+<<<<<<< HEAD
     <div style={{
         marginBottom: '5%'
     }}>
@@ -41,10 +40,17 @@ export default function About() {
         <p>
           God Moments is an online blog site for Christians to meet, share their God moments, and leave prayer requests.
           Today society with all of our socal distancing, and social media platforms available out there. Kairos 
+=======
+      <Header />
+      <section>
+        <p>
+          An online blog site for Christians to meet, share their God moments, and leave prayer requests.
+          Today society with all of our socal distancing, and social media platforms available out there. Kairos
+>>>>>>> 6dd8c324534c1b76fc6090d899a3fef21d68d4ae
           Coders has designed a platform for those who are looking for and who have experienced their own God
-          moments to share them with others. One of the most powerful forces is the "Word of Our Testimony" 
+          moments to share them with others. One of the most powerful forces is the "Word of Our Testimony"
           combined with the "Blood of the Lamb" and "not loving our own lives" results in overcoming our oldest
-          enemy. Revelation 12:11 "And they overcame him by the blood of the Lamb, and by  the word of their 
+          enemy. Revelation 12:11 "And they overcame him by the blood of the Lamb, and by  the word of their
           testimony; and they loved not their own lives unto death"
           </p>
       </section>
@@ -52,9 +58,14 @@ export default function About() {
       <br/>
       <section className={utilStyles.borderSm}>
       <Link href="/posts/login">
+<<<<<<< HEAD
       <a>→ Login Here</a>
     </Link>
     </section>
+=======
+        <a>→ Login Here</a>
+      </Link>
+>>>>>>> 6dd8c324534c1b76fc6090d899a3fef21d68d4ae
     </Layout>
   )
 }

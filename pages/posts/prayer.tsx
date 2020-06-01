@@ -1,14 +1,18 @@
-import Head from "next/head";
-import Layout from "../../components/layout";
+import Layout from "../../components/layout"
+import Header from '../../components/header'
 import Link from 'next/link'
+<<<<<<< HEAD
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import utilStyles from '../../styles/utils.module.css';
 import NavDropdown from "react-bootstrap/NavDropdown";
+=======
+>>>>>>> 6dd8c324534c1b76fc6090d899a3fef21d68d4ae
 
 export default function Pray() {
   return (
     <Layout>
+<<<<<<< HEAD
     <div style={{
         marginBottom: '5%'
     }}>
@@ -65,6 +69,20 @@ export default function Pray() {
       <br/>
           <section className={utilStyles.borderSm}>
           <Link href="/posts/about">
+=======
+    <Header/>
+
+      <section>
+        <p>
+          <img src="/images/notalone.jpg" width="700" height="500"/>
+
+          <h2>How can we pray with you?</h2>
+    
+    <br/>
+    <br/>
+    
+    <Link href="/posts/about">
+>>>>>>> 6dd8c324534c1b76fc6090d899a3fef21d68d4ae
       <a>→ Learn more about who we are </a>
     </Link>
     </section>
