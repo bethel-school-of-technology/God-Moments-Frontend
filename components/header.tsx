@@ -14,7 +14,7 @@ const Header = () => (
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav>
-                    <NavDropdown title="Home" id="collapsible-nav-dropdown">
+                    <NavDropdown title="Directory" id="collapsible-nav-dropdown">
                         <NavDropdown.Item href="posts/testimonies">Testimonies</NavDropdown.Item>
                         <NavDropdown.Item href="posts/blog">Blog</NavDropdown.Item>
                         <NavDropdown.Item href="posts/prayer">Prayer</NavDropdown.Item>
