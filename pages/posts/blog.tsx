@@ -7,52 +7,50 @@ import Date from '../../components/date'
 import { GetStaticProps } from 'next'
 
 export default function Blog({
-  allPostsData
+  allPostsData,
 }: {
   allPostsData: {
-    date: string
-    title: string
-    id: string
-  }[]
+    date: string;
+    title: string;
+    id: string;
+  }[];
 }) {
   return (
-<Layout>
-  <Header/>
+    <Layout>
+      <Header />
       <section className={utilStyles.headingMd}> </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-      <h2 className={utilStyles.headingLg}>Blog:</h2>
+        <h2 className={utilStyles.headingLg}>Blog:</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
-            <Link href="/posts/[id]" as={`/posts/${id}`}>
-              <a>{title}</a>
-            </Link>
-            <br />
-            <small className={utilStyles.lightText}>
-              <Date dateString={date} />
-            </small>
-          </li>
+              <Link href="/posts/[id]" as={`/posts/${id}`}>
+                <a>{title}</a>
+              </Link>
+              <br />
+              <small className={utilStyles.lightText}>
+                <Date dateString={date} />
+              </small>
+            </li>
           ))}
         </ul>
       </section>
-    
-    <br/>
-    <br/>
-    
-    <Link href="/posts/prayer">
-      <a>→ Need Prayer? </a>
-    </Link>
 
+      <br />
+      <br />
+
+      <Link href="/posts/prayer">
+        <a>→ Need Prayer? </a>
+      </Link>
     </Layout>
-  )
+  );
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const allPostsData = getSortedPostsData()
+  const allPostsData = getSortedPostsData();
   return {
     props: {
-      allPostsData
-    }
-  }
-}
-
+      allPostsData,
+    },
+  };
+};
