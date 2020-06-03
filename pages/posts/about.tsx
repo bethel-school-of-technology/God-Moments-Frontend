@@ -1,5 +1,4 @@
 import Layout from "../../components/layout";
-import Header from "../../components/header";
 import Head from "next/head";
 import Link from "next/link";
 import utilStyles from "../../styles/utils.module.css";
@@ -11,7 +10,6 @@ export default function About() {
         <title>God Moments: Who Are We</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
 
       <section className={utilStyles.h1}>
         <h1>Who Are We:</h1>

@@ -1,7 +1,6 @@
-import Layout from "../../components/layout";
-import Header from "../../components/header";
-import Head from "next/head";
-import Link from "next/link";
+import Layout from '../../components/layout'
+import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Faq() {
   return (
@@ -10,7 +9,6 @@ export default function Faq() {
         <title>God Moments: FAQ</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
 
       <h2>Need Help?</h2>
       <br />

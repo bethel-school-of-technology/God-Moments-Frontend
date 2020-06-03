@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import { Navbar, Container, Nav, Button } from 'react-bootstrap'
 
 const name = 'God Moments'
 export const siteTitle = 'God Moments'
@@ -31,6 +32,31 @@ export default function Layout({
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
+      <Navbar expand="sm" bg="dark" variant="dark" fixed="top" sticky="top"> 
+            <Navbar.Brand href="/">God Moments</Navbar.Brand>
+            <Container>
+            <Nav className="God-Moments">
+                <Nav.Link href="./testimonies">
+                <Button variant="outline-light">Testimonies</Button>
+                </Nav.Link>
+                <Nav.Link href="./blog">
+                <Button variant="outline-light">Blog</Button>
+                </Nav.Link>
+                <Nav.Link href="./prayer">
+                <Button variant="outline-light">Prayer</Button>
+                    </Nav.Link>
+                <Nav.Link href="./about">
+                <Button variant="outline-light">About</Button>
+                </Nav.Link>
+                <Nav.Link href="./faq">
+                <Button variant="outline-light">Help</Button> 
+                </Nav.Link>
+                <Nav.Link href="./login">
+                    <Button variant="outline-light">Login</Button> 
+                </Nav.Link>
+            </Nav>
+            </Container>
+        </Navbar>
         {home ? (
           <>
             <img

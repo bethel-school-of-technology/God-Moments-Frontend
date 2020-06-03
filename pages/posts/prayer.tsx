@@ -1,13 +1,11 @@
-import Layout from "../../components/layout";
-import Header from "../../components/header";
-import Head from "next/head";
-import Link from "next/link";
-import utilStyles from "../../styles/utils.module.css";
+import Layout from '../../components/layout'
+import Head from 'next/head'
+import Link from "next/link"
+import utilStyles from '../../styles/utils.module.css'
 
 export default function Pray() {
   return (
     <Layout>
-      <Header />
       <Head>
         <title>God Moments: Prayer</title>
         <link rel="icon" href="/favicon.ico" />

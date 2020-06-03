@@ -1,14 +1,16 @@
-import Layout, { siteTitle } from "../../components/layout"
-import Header from '../../components/header'
+import Layout from '../../components/layout'
 import Link from 'next/link'
+import Head from 'next/head'
 import utilStyles from '../../styles/utils.module.css'
 
 
 export default function Login() {
   return (
     <Layout>    
-    <Header/>
-    
+      <Head>
+            <title>God Moments: Sign Up</title>
+            <link rel="icon" href="/favicon.ico"/>
+      </Head>
       <h2>The Kairos Coders welcome you to God Moments</h2>
       
       <br/>
