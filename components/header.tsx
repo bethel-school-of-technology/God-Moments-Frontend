@@ -1,5 +1,5 @@
-import Head from 'next/head';
-import { Navbar, Container, Nav, Button } from 'react-bootstrap';
+import Head from 'next/head'
+import { Navbar, Container, Nav, Button } from 'react-bootstrap'
 
 const Header = () => (
     <div style={{
@@ -33,9 +33,6 @@ const Header = () => (
                 </Nav.Link>
             </Nav>
             </Container>
-            
-      
-   
         </Navbar>
         
     </div>

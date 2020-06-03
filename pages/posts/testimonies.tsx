@@ -1,5 +1,4 @@
 import Layout from "../../components/layout"
-import Header from "../../components/header"
 import Head from "next/head"
 import Link from 'next/link'
 import utilStyles from '../../styles/utils.module.css'
@@ -7,11 +6,10 @@ import utilStyles from '../../styles/utils.module.css'
 export default function FirstPost() {
   return (
     <Layout>
-      <Header/>
       <Head>
             <title>God Moments: Testimonies</title>
             <link rel="icon" href="/favicon.ico"/>
-        </Head>
+      </Head>
 
       
       <section className={utilStyles.h1}>

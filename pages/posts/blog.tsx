@@ -1,5 +1,4 @@
 import Layout from '../../components/layout'
-import Header from '../../components/header'
 import utilStyles from '../../styles/utils.module.css'
 import { getSortedPostsData } from '../../lib/posts'
 import Link from 'next/link'
@@ -17,7 +16,6 @@ export default function Blog({
 }) {
   return (
     <Layout>
-      <Header />
       <section className={utilStyles.headingMd}> </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog:</h2>
