@@ -4,6 +4,15 @@ const Index = () => (
   <>
   <Navbar expand="sm" bg="dark" variant="dark" fixed="top" sticky="top"> 
             <Navbar.Brand href="/">God Moments</Navbar.Brand>
+            <Navbar.Brand href="/">
+                <img
+                src="/images/placeholder.jpeg" 
+                width="45" 
+                height="45"
+                className="d-inline-block align-top"
+                alt="God Moments Logo"
+                />
+            </Navbar.Brand>
             <Container>
             <Nav className="God-Moments">
                 <Nav.Link href="posts/testimonies">
@@ -28,8 +37,7 @@ const Index = () => (
             </Container>
         </Navbar>
   <main style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-  <img src="/images/hero-bg.jpg" width="1345" height="836"/>
-  <img src="/images/placeholder.jpeg" width="200" height="200"/>
+  <img src="/images/hero-bg.jpg" width="79%" height="79%"/>
   </main>
 
   
