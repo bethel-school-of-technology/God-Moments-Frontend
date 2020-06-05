@@ -1,4 +1,4 @@
-import Layout from "../../components/layout"
+import Layout from '../../components/layout'
 import Header from '../../components/header'
 import Link from 'next/link'
 import utilStyles from '../../styles/utils.module.css'
@@ -6,47 +6,11 @@ import utilStyles from '../../styles/utils.module.css'
 export default function About() {
   return (
     <Layout>
-<<<<<<< HEAD
-    <div style={{
-        marginBottom: '5%'
-    }}>
-        <Head>
-            <title>God Moments: About Page</title>
-            <link rel="icon" href="/favicon.ico"/>
-        </Head>
-        <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Navbar.Brand href="/">God Moments</Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav>
-                    <NavDropdown title="Home" id="collapsible-nav-dropdown">
-                        <NavDropdown.Item href="testimonies">Testimonies</NavDropdown.Item>
-                        <NavDropdown.Item href="blog">Blog</NavDropdown.Item>
-                        <NavDropdown.Item href="prayer">Prayer</NavDropdown.Item>
-                        <NavDropdown.Item href="about">Who Are We</NavDropdown.Item>
-                        <NavDropdown.Item href="faq">Help Me</NavDropdown.Item>
-                        <NavDropdown.Item href="login">Login</NavDropdown.Item>
-                    </NavDropdown>
-                </Nav>
-                </Navbar.Collapse>
-        </Navbar>
-    </div>
-    <section className={utilStyles.h1}>
-    <h1>Who Are We:</h1>
-    </section>
-    <br/>
-    <br/>
-      <section>
-        <p>
-          God Moments is an online blog site for Christians to meet, share their God moments, and leave prayer requests.
-          Today society with all of our socal distancing, and social media platforms available out there. Kairos 
-=======
       <Header />
       <section>
         <p>
           An online blog site for Christians to meet, share their God moments, and leave prayer requests.
           Today society with all of our socal distancing, and social media platforms available out there. Kairos
->>>>>>> 6dd8c324534c1b76fc6090d899a3fef21d68d4ae
           Coders has designed a platform for those who are looking for and who have experienced their own God
           moments to share them with others. One of the most powerful forces is the "Word of Our Testimony"
           combined with the "Blood of the Lamb" and "not loving our own lives" results in overcoming our oldest
@@ -58,14 +22,9 @@ export default function About() {
       <br/>
       <section className={utilStyles.borderSm}>
       <Link href="/posts/login">
-<<<<<<< HEAD
-      <a>→ Login Here</a>
-    </Link>
-    </section>
-=======
         <a>→ Login Here</a>
       </Link>
->>>>>>> 6dd8c324534c1b76fc6090d899a3fef21d68d4ae
+      </section>
     </Layout>
-  )
+  );
 }
