@@ -88,11 +88,15 @@ export default function Layout({
       </header>
       <main>{children}</main>
       {!home && (
+         
         <div className={styles.backToHome}>
           <Link href="/">
+          <section className={utilStyles.borderSm}>
             <a>← Back to home</a>
+            </section>
           </Link>
         </div>
+      
       )}
     </div>
   )

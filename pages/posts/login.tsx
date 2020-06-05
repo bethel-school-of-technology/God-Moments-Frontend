@@ -16,6 +16,7 @@ export default function Login() {
       <h4>Log In:</h4>
       <section className={utilStyles.border}>
       <form>
+      <br/>
       <section className={utilStyles.form}>
       <label id="userName">User Name:</label><br/>
       <input type="text" id="userName" placeholder="Username"/><br/>
@@ -24,6 +25,7 @@ export default function Login() {
       <br/>
       <button name="submit" type="submit">Submit!</button>
       </section>
+      <br/>
       </form>
       </section>
       <br/>
