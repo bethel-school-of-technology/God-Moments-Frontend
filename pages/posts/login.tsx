@@ -1,5 +1,5 @@
 import Layout from '../../components/layout'
-import Header from '../../components/header'
+import Head from 'next/head'
 import utilStyles from '../../styles/utils.module.css'
 import Link from 'next/link'
 
@@ -7,7 +7,10 @@ import Link from 'next/link'
 export default function Login() {
   return (
     <Layout>    
-    <Header/>
+    <Head>
+        <title>God Moments: Log In</title>
+        <link rel="icon" href="/favicon.ico"/>
+      </Head>
     
       <h2>The Kairos Coders welcome you to God Moments</h2>
       <h4>Log In:</h4>

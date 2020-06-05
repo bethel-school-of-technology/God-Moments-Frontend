@@ -1,17 +1,23 @@
 import Layout from "../../components/layout"
-import Header from "../../components/header"
+import Head from "next/head"
 import Link from 'next/link'
 import utilStyles from '../../styles/utils.module.css'
 
 export default function testimonies() {
   return (
     <Layout>
-      <Header/>
+      <Head>
+            <title>God Moments: Testimonies</title>
+            <link rel="icon" href="/favicon.ico"/>
+      </Head>
 
-      <h3>
-      <h3>The Kairos Coders welcome you to the God Moments Testimony Stream.</h3></h3>
+      
+      <section className={utilStyles.h1}>
+      <h1>Testimony Stream!</h1>
+      </section>
       <br/>
-      <h4>We are hard at work... or praying... or eating... or possibly sleeping? This page shall be running soon! :)</h4>
+      <h2>Add a Testimony or an Encounter Post</h2>
+      <br/>
       <br/>
       <section className={utilStyles.border}>
       
@@ -31,8 +37,8 @@ export default function testimonies() {
      <br/>
      </form>
       </section>
-     <br />
-     <br/>
+      <br/>
+      
       <section className={utilStyles.borderSm}>
       <Link href="/posts/blog">
       <a>→ Check out our blogs! </a>
@@ -41,4 +47,3 @@ export default function testimonies() {
     </Layout>
   );
 }
-// incorporate live stream/ Blog posting template on this page
