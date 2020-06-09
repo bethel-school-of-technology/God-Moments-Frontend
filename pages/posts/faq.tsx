@@ -6,7 +6,7 @@ export default function Faq() {
   return (
     <Layout>
       <Head>
-        <title>God Moments: FAQ</title>
+        <title>God Moments: Help</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -48,13 +48,7 @@ export default function Faq() {
           To be determined.
           <br />
         </p>
-        <img src="/images/hammock.jpg" width="500" height="300" />
       </section>
-
-      <img src="/images/hammock.jpg" width="500" height="300"/>
-      <br/>
-      <br/>
-      <br/>
       <section>
     <p>
         3. How to add a blog post?<br/>
@@ -67,6 +61,8 @@ export default function Faq() {
        </p>
       </section>
 
+      <img src="/images/hammock.jpg" width="500" height="300"/>
+      <br/>
     </Layout>
   );
 }
