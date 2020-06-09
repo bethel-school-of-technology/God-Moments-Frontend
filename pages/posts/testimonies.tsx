@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import utilStyles from '../../styles/utils.module.css'
 
-export default function FirstPost() {
+export default function testimonies() {
   return (
     <Layout>
       <Head>
@@ -38,12 +38,12 @@ export default function FirstPost() {
      </form>
       </section>
       <br/>
-    
       
+      <section className={utilStyles.borderSm}>
       <Link href="/posts/blog">
       <a>→ Check out our blogs! </a>
     </Link>
-
+      </section>
     </Layout>
   );
 }

@@ -30,12 +30,13 @@ export default function About() {
           testimony; and they loved not their own lives unto death"
         </p>
       </section>
-      <br />
-      <br />
-
+      <br/>
+      <br/>
+      <section className={utilStyles.borderSm}>
       <Link href="/posts/login">
         <a>→ Login Here</a>
       </Link>
+      </section>
     </Layout>
   );
 }
