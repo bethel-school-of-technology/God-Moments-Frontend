@@ -1,50 +1,72 @@
-import Head from "next/head";
-import Layout from "../../components/layout";
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import Layout from '../../components/layout'
+import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Faq() {
   return (
     <Layout>
-    <div style={{
-        marginBottom: '5%'
-    }}>
-        <Head>
-            <title>God Moments: FAQ</title>
-            <link rel="icon" href="/favicon.ico"/>
-        </Head>
-        <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Navbar.Brand href="/">God Moments</Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav>
-                    <NavDropdown title="Home" id="collapsible-nav-dropdown">
-                        <NavDropdown.Item href="testimonies">Testimonies</NavDropdown.Item>
-                        <NavDropdown.Item href="blog">Blog</NavDropdown.Item>
-                        <NavDropdown.Item href="prayer">Prayer</NavDropdown.Item>
-                        <NavDropdown.Item href="about">About</NavDropdown.Item>
-                        <NavDropdown.Item href="faq">Help</NavDropdown.Item>
-                        <NavDropdown.Item href="login">Login</NavDropdown.Item>
-                    </NavDropdown>
-                </Nav>
-                </Navbar.Collapse>
-        </Navbar>
-    </div>
+      <Head>
+        <title>God Moments: FAQ</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
+      <h2>Need Help?</h2>
+      <br />
+      <br />
 
       <section>
         <p>
-        <a href="#question1">1. What is God Moments?</a>
-        </p>
-        <p>
-        <a href="#question2">2. How to contact support?</a>
-        </p>
-        <p>
-        <a href="#question3">3. How to add a blog post?</a>
-        </p>
-        <p>
-        <a href="#question4">4. How to update my account?</a>
+          1. What is God Moments?
+          <br />
+          <br />
+          An online blog site for Christians to meet, share their God moments,
+          and leave prayer requests.
+          <br />
+          <br />
+          2. How to contact support?
+          <br />
+          <br />
+          To be determined.
         </p>
       </section>
+      <br />
+
+      <section>
+        <p>
+          3. How to add a blog post?
+          <br />
+          <br />
+          Go to the blog page{" "}
+          <Link href="blog">
+            <a>Blog Page</a>
+          </Link>
+          <br />
+          <br />
+          4. How to update my account?
+          <br />
+          <br />
+          To be determined.
+          <br />
+        </p>
+        <img src="/images/hammock.jpg" width="500" height="300" />
+      </section>
+
+      <img src="/images/hammock.jpg" width="500" height="300"/>
+      <br/>
+      <br/>
+      <br/>
+      <section>
+    <p>
+        3. How to add a blog post?<br/>
+        <br/>
+        Go to the blog page <Link href="blog"><a>Blog Page</a></Link><br/>
+       <br/>
+       4. How to update my account?<br/>
+       <br/>
+       To be determined.<br/>
+       </p>
+      </section>
+
     </Layout>
-  )
+  );
 }

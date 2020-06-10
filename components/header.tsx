@@ -1,5 +1,5 @@
-import Head from 'next/head';
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import Head from 'next/head'
+import { Navbar, Container, Nav, Button } from 'react-bootstrap'
 
 const Header = () => (
     <div style={{
@@ -7,24 +7,34 @@ const Header = () => (
     }}>
         <Head>
             <title>God Moments</title>
-            <link rel="icon" href="/favicon.ico"/>
+            <link rel="icon" href="/favicon.ico" />
         </Head>
-        <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar expand="sm" bg="dark" variant="dark" fixed="top" sticky="top"> 
             <Navbar.Brand href="/">God Moments</Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav>
-                    <NavDropdown title="Home" id="collapsible-nav-dropdown">
-                        <NavDropdown.Item href="posts/testimonies">Testimonies</NavDropdown.Item>
-                        <NavDropdown.Item href="posts/blog">Blog</NavDropdown.Item>
-                        <NavDropdown.Item href="posts/prayer">Prayer</NavDropdown.Item>
-                        <NavDropdown.Item href="posts/about">About</NavDropdown.Item>
-                        <NavDropdown.Item href="posts/faq">Help</NavDropdown.Item>
-                        <NavDropdown.Item href="posts/login">Login</NavDropdown.Item>
-                    </NavDropdown>
-                </Nav>
-                </Navbar.Collapse>
+            <Container>
+            <Nav className="God-Moments">
+                <Nav.Link href="posts/testimonies">
+                <Button variant="outline-light">Testimonies</Button>
+                </Nav.Link>
+                <Nav.Link href="posts/blog">
+                <Button variant="outline-light">Blog</Button>
+                </Nav.Link>
+                <Nav.Link href="posts/prayer">
+                <Button variant="outline-light">Prayer</Button>
+                    </Nav.Link>
+                <Nav.Link href="posts/about">
+                <Button variant="outline-light">About</Button>
+                </Nav.Link>
+                <Nav.Link href="posts/faq">
+                <Button variant="outline-light">Help</Button> 
+                </Nav.Link>
+                <Nav.Link href="posts/login">
+                    <Button variant="outline-light">Login</Button> 
+                </Nav.Link>
+            </Nav>
+            </Container>
         </Navbar>
+        
     </div>
 );
 
