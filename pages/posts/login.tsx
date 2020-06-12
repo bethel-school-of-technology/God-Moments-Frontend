@@ -2,6 +2,7 @@ import Layout from '../../components/layout'
 import Head from 'next/head'
 import utilStyles from '../../styles/utils.module.css'
 import Link from 'next/link'
+import { Button } from 'react-bootstrap'
 
 
 export default function Login() {
@@ -12,8 +13,9 @@ export default function Login() {
         <link rel="icon" href="/favicon.ico"/>
       </Head>
     
-      <h2>The Kairos Coders welcome you to God Moments</h2>
-      <h4>Log In:</h4>
+      <section className={utilStyles.h1}>
+      <h1>Log In:</h1>
+      </section>
       <section className={utilStyles.border}>
       <form>
       <br/>
@@ -32,9 +34,9 @@ export default function Login() {
       <br/>
 
           <div>
-          <Link href="/posts/signup">
+          <Button href="/posts/signup">
           <a>No account? Register here</a>
-          </Link>
+          </Button>
         </div>
 
      </Layout>
