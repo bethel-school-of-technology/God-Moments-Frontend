@@ -4,6 +4,7 @@ import { getSortedPostsData } from '../../lib/posts'
 import Link from 'next/link'
 import Date from '../../components/date'
 import { GetStaticProps } from 'next'
+import { Button } from 'react-bootstrap'
 
 export default function Blog({
   allPostsData,
@@ -37,9 +38,9 @@ export default function Blog({
       <br />
       <br />
 
-      <Link href="/posts/prayer">
+      <Button href="/posts/prayer">
         <a>→ Need Prayer? </a>
-      </Link>
+      </Button>
     </Layout>
   );
 }

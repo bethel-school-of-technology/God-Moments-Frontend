@@ -2,6 +2,7 @@ import Layout from '../../components/layout'
 import Head from 'next/head'
 import Link from 'next/link'
 import utilStyles from '../../styles/utils.module.css'
+import { Button } from "react-bootstrap";
 
 export default function testimonies() {
   return (
@@ -40,9 +41,9 @@ export default function testimonies() {
       <br/>
       
       <section className={utilStyles.borderSm}>
-      <Link href="/posts/blog">
+      <Button href="/posts/blog">
       <a>→ Check out our blogs! </a>
-    </Link>
+    </Button>
       </section>
     </Layout>
   );

@@ -2,6 +2,7 @@ import Layout from '../../components/layout'
 import Head from 'next/head'
 import Link from "next/link"
 import utilStyles from '../../styles/utils.module.css'
+import { Button } from 'react-bootstrap';
 
 export default function Pray() {
   return (
@@ -13,7 +14,7 @@ export default function Pray() {
 
       <section>
         <p>
-          <img src="/images/notalone.jpg" width="700" height="500" />
+          <img src="/images/notalone.jpg" width="500" height="300" />
           <section className={utilStyles.h1} />
           <h1>How can we pray with you?</h1>
           <br />
@@ -34,9 +35,9 @@ export default function Pray() {
           <br />
           <br />
 
-          <Link href="/posts/about">
+          <Button href="/posts/about">
             <a>→ Learn more about who we are </a>
-          </Link>
+          </Button>
         </p>
       </section>
     </Layout>

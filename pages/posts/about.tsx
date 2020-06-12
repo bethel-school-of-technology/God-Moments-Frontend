@@ -1,7 +1,7 @@
 import Layout from '../../components/layout'
 import Head from 'next/head'
-import Link from 'next/link'
 import utilStyles from '../../styles/utils.module.css'
+import { Button } from 'react-bootstrap';
 
 export default function About() {
   return (
@@ -27,16 +27,16 @@ export default function About() {
           combined with the "Blood of the Lamb" and "not loving our own lives"
           results in overcoming our oldest enemy. Revelation 12:11 "And they
           overcame him by the blood of the Lamb, and by the word of their
-          testimony; and they loved not their own lives unto death"
+          testimony; and they loved not their own lives unto death."
         </p>
       </section>
       <br/>
       <br/>
-      <section className={utilStyles.borderSm}>
-      <Link href="/posts/login">
+     
+      <Button href="/posts/login">
         <a>→ Login Here</a>
-      </Link>
-      </section>
+      </Button>
+     
     </Layout>
   );
 }
