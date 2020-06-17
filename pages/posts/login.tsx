@@ -3,6 +3,7 @@ import Head from 'next/head'
 import utilStyles from '../../styles/utils.module.css'
 import Link from 'next/link'
 import { Button } from 'react-bootstrap'
+import { GetStaticProps } from 'next'
 
 
 export default function Login() {
@@ -38,7 +39,23 @@ export default function Login() {
           <a>No account? Register here</a>
           </Button>
         </div>
-
      </Layout>
   )
   }
+/*
+type Users = {
+  email: string
+  content: string
+} 
+export const getStaticProps: GetStaticProps = async () => {
+const res = await fetch('https://localhost:8080/users')
+const login: Users[] = await res.json()
+
+return {
+  props: { 
+    users,
+  },
+}
+}
+
+*/
