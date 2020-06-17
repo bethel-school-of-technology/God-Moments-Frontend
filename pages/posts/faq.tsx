@@ -7,7 +7,7 @@ export default function Faq() {
   return (
     <Layout>
       <Head>
-        <title>God Moments: FAQ</title>
+        <title>God Moments: Help</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -48,6 +48,8 @@ export default function Faq() {
        </p>
       </section>
 
+      <img src="/images/hammock.jpg" width="500" height="300"/>
+      <br/>
     </Layout>
   );
 }

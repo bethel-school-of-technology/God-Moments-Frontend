@@ -1,5 +1,5 @@
-import Layout from "../../components/layout"
-import Head from "next/head"
+import Layout from '../../components/layout'
+import Head from 'next/head'
 import Link from 'next/link'
 import utilStyles from '../../styles/utils.module.css'
 import { Button } from "react-bootstrap";
