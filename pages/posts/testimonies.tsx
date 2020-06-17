@@ -48,3 +48,21 @@ export default function testimonies() {
     </Layout>
   );
 }
+
+/*
+type Testimony = {
+  name: string
+  Testimony: string
+} 
+export const getStaticProps: GetStaticProps = async () => {
+const res = await fetch('https://localhost:8080/Testimonystream')
+const login: Users[] = await res.json()
+
+return {
+  props: { 
+    users,
+  },
+}
+}
+
+*/
