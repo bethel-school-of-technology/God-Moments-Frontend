@@ -60,7 +60,7 @@ const login: Users[] = await res.json()
 
 return {
   props: { 
-    users,
+    Testimony,
   },
 }
 }
